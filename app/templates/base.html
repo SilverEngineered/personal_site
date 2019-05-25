@@ -1,0 +1,30 @@
+<html>
+    <h1>
+
+      {% if title %}
+      <title>{{ title }} - Microblog</title>
+      {% else %}
+      <title>Welcome to Microblog</title>
+      {% endif %}
+    </h1>
+    <style>
+html {
+    min-height: 100%; 
+}
+body {
+    background: -webkit-linear-gradient(#93B874, #C9DCB9); 
+    background: -o-linear-gradient(#93B874, #C9DCB9); 
+    background: -moz-linear-gradient(#93B874, #C9DCB9); 
+    background: linear-gradient(#93B874, #C9DCB9); 
+    background-color: #93B874; 
+}
+    </style>
+    <body>
+        <div>Microblog: 
+          <a href="{{ url_for('index') }}">Home</a>
+          <a href="{{ url_for('about') }}">About Me</a>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
