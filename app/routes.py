@@ -37,5 +37,8 @@ def projects():
 
 @app.route('/Contact')
 def contact():
-	phone="321-xxx-xxxx"
-	return render_template('contact.html', title='About Me', phone=phone)
+	return render_template('contact.html', title='Contact')
+
+@app.route('/Upcoming')
+def upcoming():
+	return render_template('upcoming.html', title='upcoming')
