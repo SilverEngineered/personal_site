@@ -6,21 +6,35 @@ def index():
     user = {'username': 'Dan'}
     posts = [
         {
-            'author': {'username': 'John'},
-            'body': 'Beautiful day in Portland!'
+            'title': 'Hi There!',
+            'body': 'If you are here I can only hope to believe you are atleast a little bit '\
+            'interested in my work and qualifications.  This website serves as' \
+            ' a portfolio for that very purpose!'
         },
         {
-            'author': {'username': 'Susan'},
-            'body': 'The Avengers movie was so cool!'
+            'title': 'Who am I',
+            'body': 'My name is Dan Silver and I am currently pursuing'\
+            ' a dual Bachelor\'s and Master\'s degree in Computer Engineering,' \
+            ' concentrating in Machine Learning, Computer Vision, and Algorithms. ' \
+            ' I am in my 4th year of study at Northeastern University. While my degree' \
+            ' is more hardware based, my work experience and personal projects are ' \
+            'more based on a mix of machine learning, computer vision, and software!'
         },
                 {
-            'author': {'username': 'Dan'},
-            'body': 'Dogs!'
+            'title': 'My skills',
+            'body': 'My technical toolbelt includes experience in the following: '\
+            ' Deep Learning, Tensorflow, Apache Spark, Generative Adversarial Networks, Natural Language Processing, Git, Triplet Embedding Networks'\
+            ', Computer Vision, Object Tracking, Linux, Game design for research/data acquisition, Parallel Processing, & Embedded design'
         }
     ]
     return render_template('index.html', title='Home', user=user, posts=posts)
 
-@app.route('/About')
-def about():
+
+@app.route('/Projects')
+def projects():
+	return render_template('projects.html')
+
+@app.route('/Contact')
+def contact():
 	phone="321-xxx-xxxx"
-	return render_template('about.html', title='About Me', phone=phone)
+	return render_template('contact.html', title='About Me', phone=phone)
