@@ -7,12 +7,11 @@ def index():
     posts = [
         {
             'title': 'Hi There!',
-            'body': 'If you are here I can only hope to believe you are atleast a little bit '\
-            'interested in my work and qualifications.  This website serves as' \
-            ' a portfolio for that very purpose!'
+            'body': 'Thank you for showing interest in visiting this website to learn more about my skills' \
+            ' and qualifications.'
         },
         {
-            'title': 'Who am I',
+            'title': 'Who I Am',
             'body': 'My name is Dan Silver and I am currently pursuing'\
             ' a dual Bachelor\'s and Master\'s degree in Computer Engineering,' \
             ' concentrating in Machine Learning, Computer Vision, and Algorithms. ' \
@@ -22,7 +21,7 @@ def index():
             'more based on a mix of machine learning, computer vision, and software!'
         },
                 {
-            'title': 'My skills',
+            'title': 'My Skills',
             'body': 'My technical toolbelt includes experience in the following: '\
             ' Deep Learning, Tensorflow, Apache Spark, Generative Adversarial Networks, Vim, Natural Language Processing, Git, Triplet Embedding Networks'\
             ', Computer Vision, Object Tracking, Linux, Game design for research/data acquisition, Parallel Processing, & Embedded design'
