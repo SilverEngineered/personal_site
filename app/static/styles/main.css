@@ -68,8 +68,30 @@ li a:hover {
     max-width:75em;
 }
 .commentbox {
-  width: 320px;
-  padding: 10px;
+  width: 100%;
+  padding: 5px;
   border: 5px solid purple;
   margin: 0;
+}
+.commentboxb {
+  width: 100%;
+  padding: 5px;
+  border: 5px solid blue;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }

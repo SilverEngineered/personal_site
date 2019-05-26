@@ -24,7 +24,7 @@ def index():
                 {
             'title': 'My skills',
             'body': 'My technical toolbelt includes experience in the following: '\
-            ' Deep Learning, Tensorflow, Apache Spark, Generative Adversarial Networks, Natural Language Processing, Git, Triplet Embedding Networks'\
+            ' Deep Learning, Tensorflow, Apache Spark, Generative Adversarial Networks, Vim, Natural Language Processing, Git, Triplet Embedding Networks'\
             ', Computer Vision, Object Tracking, Linux, Game design for research/data acquisition, Parallel Processing, & Embedded design'
         }
     ]
