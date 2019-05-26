@@ -38,6 +38,18 @@ li a:hover {
     padding:.3em 1em;
     border:.3em solid #00e;
 }
+.posto{
+    position: relative;
+	margin:1em auto;
+    padding:.3em 1em;
+    border:.3em solid #ff8600f7;
+}
+.postg{
+    position: relative;
+	margin:1em auto;
+    padding:.3em 1em;
+    border:.1em solid #2aff2a;
+}
 
 .postp{
     position: relative;
@@ -49,4 +61,15 @@ li a:hover {
 	margin:0em auto;
     padding:0em 1em;
     max-width:60em;
+}
+.main2{
+	margin:0em auto;
+    padding:0em 1em;
+    max-width:75em;
+}
+.commentbox {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid purple;
+  margin: 0;
 }

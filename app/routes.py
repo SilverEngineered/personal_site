@@ -16,7 +16,8 @@ def index():
             'body': 'My name is Dan Silver and I am currently pursuing'\
             ' a dual Bachelor\'s and Master\'s degree in Computer Engineering,' \
             ' concentrating in Machine Learning, Computer Vision, and Algorithms. ' \
-            ' I am in my 4th year of study at Northeastern University. While my degree' \
+            ' I am in my 4th year of study at Northeastern University. My graduate GPA is a 4.0' \
+            ' and my Major GPA is  3.66. While my degree' \
             ' is more hardware based, my work experience and personal projects are ' \
             'more based on a mix of machine learning, computer vision, and software!'
         },
