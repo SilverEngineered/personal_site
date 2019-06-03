@@ -1,16 +1,16 @@
 <html>
 <head>
    <meta charset="utf-8">
-   <title>Flask Parent Template</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}"> </head>
-
+   <title>Dan Silver</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"> </head>
     <body>
-      <ul>
-        <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
-        <li><a href="{{ url_for('projects') }}">Projects</a></li>
-        <li><a href="{{ url_for('contact') }}">Contact Me</a></li>
+      <nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
+      <ul class="navbar-nav">
+        <li><a class="navbar-brand" href="{{ url_for('index') }}">Home</a></li>
+        <li><a class="navbar-brand" href="{{ url_for('projects') }}">Projects</a></li>
+        <li><a class="navbar-brand" href="{{ url_for('contact') }}">Contact Me</a></li>
       </ul>
-
+</nav>
         <hr>
         {% block content %}{% endblock %}
     </body>

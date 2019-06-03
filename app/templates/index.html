@@ -1,28 +1,4 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="main">
-  <p id="dansilver">
-    <img src="/static/images/dansilver.jpeg">
-    </p>
-    {% for post in posts %}
-    <div class="postb">
-    	<p><b><big>{{ post.title }} </big></b></p>
-        <p>
-    	{{ post.body }}
-    	</p>
-    </div>
-
-    {% endfor %}
-        </div>
-        <div class="main">
-        <div class=postp>
-          <p><b><big>Quick Links </big></b></p>
-            <p>
-            <a href="https://github.com/silverengineered">Github</a>
-            <a href="https://www.linkedin.com/in/danielbsilver/">Linkdin</a>
-            <a href="static/pdf/Daniel_Silver_Resume.pdf">Résumé</a>
-          </p>
-        </div>
-          </div>
 {% endblock %}
