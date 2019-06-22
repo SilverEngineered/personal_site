@@ -23,8 +23,7 @@ def index():
                 {
             'title': 'My Skills',
             'body': 'My technical toolbelt includes experience in the following: '\
-            ' Deep Learning, Tensorflow, Apache Spark, Generative Adversarial Networks, Vim, Natural Language Processing, Git, Triplet Embedding Networks'\
-            ', Computer Vision, Object Tracking, Linux, Game design for research/data acquisition, Parallel Processing, & Embedded design'
+'Deep Learning (GANs,CNNs,Triplet Embedding Networks) (Tensorflow), Parallel Computing (Apache Spark), NLP (PyTorch,Scikit-learn,Snorkel), Computer Vision (Open CV), Virtualization (Docker,VmWare,PyEnv), Version Control (Git, Alembic),  Linux (Debian-based, CentOS, Raspberry Pi), AWS (S3,EC2), APIs (Flask), Vim'
         }
     ]
     return render_template('index.html', title='Home', user=user, posts=posts)
