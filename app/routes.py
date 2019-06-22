@@ -7,7 +7,7 @@ def index():
     posts = [
         {
             'title': 'Hi There!',
-            'body': 'Thank you for showing interest in visiting this website to learn more about my skills' \
+            'body': 'Thank you for showing interest in visiting my website to learn more about my skills' \
             ' and qualifications.'
         },
         {
@@ -15,10 +15,14 @@ def index():
             'body': 'My name is Dan Silver and I am currently pursuing'\
             ' a dual Bachelor\'s and Master\'s degree in Computer Engineering,' \
             ' concentrating in Machine Learning, Computer Vision, and Algorithms. ' \
-            ' I am in my 4th year of study at Northeastern University. My graduate GPA is a 4.0' \
+            ' I am in my 4th year of study at Northeastern University. ' \
+            'Throughout my time in college, I have accumulated 21 months of on the job internship experience' \
+            ' over the course of 4 sucessful internships.'
+            'My graduate GPA is a 4.0' \
             ' and my Major GPA is  3.66. While my degree' \
             ' is more hardware based, my work experience and personal projects are ' \
-            'more based on a mix of machine learning, computer vision, and software!'
+            'more based on a mix of machine learning, computer vision, and software.  ' \
+            'Right now I am looking for a data science software engineering job once I graduate in June 2020!'
         },
                 {
             'title': 'My Skills',
