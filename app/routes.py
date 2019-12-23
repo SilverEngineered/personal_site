@@ -16,5 +16,5 @@ def contact():
 def upcoming():
 	return render_template('upcoming.html', title='upcoming')
 @app.route('/Fractal')
-def upcoming():
+def fractal():
 	return render_template('fractal.html', title='FRACTAL!')
