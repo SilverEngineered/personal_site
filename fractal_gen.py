@@ -31,8 +31,8 @@ def makeImage():
 
     MAX_ITER = 80
     # Image size (pixels)
-    WIDTH = 600
-    HEIGHT = 400
+    WIDTH = 300
+    HEIGHT = 200
 
     # Plot window
     RE_START = -2
