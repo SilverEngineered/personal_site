@@ -1,5 +1,6 @@
 from app import app
 from flask import render_template, url_for
+import fractal
 @app.route('/')
 @app.route('/index')
 def index():
@@ -17,4 +18,5 @@ def upcoming():
 	return render_template('upcoming.html', title='upcoming')
 @app.route('/Fractal')
 def fractal():
+	fractal.makeImage()
 	return render_template('fractal.html', title='FRACTAL!')
