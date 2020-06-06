@@ -23,10 +23,10 @@ def fractal():
 	return render_template('fractal.html', title='FRACTAL!')
 @app.route('/json', methods = ['POST'])
 def json():
-	try:
-		return {'yay!': 'stuff'}
+	#try:
+	return {'yay!': 'stuff'}
 		#return request.get_json()#{'yay!': req_data}
-	except:
-		pass
-	data = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'We did it!'}
-	return jsonify(data)
+	#except:
+	#	pass
+	#data = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'We did it!'}
+	#return jsonify(data)
