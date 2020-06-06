@@ -25,8 +25,8 @@ def fractal():
 def json():
 	#try:
 	#return 'test' #'#{'yay!': 'stuff'}
-	if not request.json:
-		return 'error no  json'
+	#if not request.json:
+		#return 'error no  json'
 	return 'yay json'#request.get_json()#{'yay!': req_data}
 	#except:
 	#	pass
