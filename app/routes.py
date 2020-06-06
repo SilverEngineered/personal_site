@@ -27,7 +27,7 @@ def json():
 	#return 'test' #'#{'yay!': 'stuff'}
 	if not request.json:
 		return 'error no  json'
-	return request.get_json()#{'yay!': req_data}
+	return 'yay json'#request.get_json()#{'yay!': req_data}
 	#except:
 	#	pass
 	#data = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'We did it!'}
