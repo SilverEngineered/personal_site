@@ -24,7 +24,8 @@ def fractal():
 @app.route('/json', methods = ['POST'])
 def json():
 	try:
-		return request.get_json()#{'yay!': req_data}
+		return {'yay!': 'stuff'}
+		#return request.get_json()#{'yay!': req_data}
 	except:
 		pass
 	data = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'We did it!'}
