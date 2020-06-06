@@ -25,8 +25,7 @@ def fractal():
 def json():
 	try:
 		req_data = request.get_json()
-		language = req_data['language']
-		return {'yay! ': language}
+		return {'yay!': req_data}
 	except:
 		pass
 	data = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'We did it!'}
