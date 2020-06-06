@@ -28,7 +28,6 @@ def json():
 	task = {
 		'id': 1,
 		'title': request.json['title'],
-		'description': request.json.get('description', ""),
 		'done': False
 	}
 	return jsonify({'task': task}), 201
