@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template, url_for
+from flask import render_template, url_for, jsonify
 import fractal_gen
 
 @app.route('/')
@@ -21,3 +21,7 @@ def upcoming():
 def fractal():
 	fractal_gen.makeImage()
 	return render_template('fractal.html', title='FRACTAL!')
+@app.route('/json')
+def json():
+	data = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'We did it!'}
+	return jsonify(data)
